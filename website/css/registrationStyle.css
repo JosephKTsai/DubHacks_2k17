@@ -1,6 +1,7 @@
 html, body{
     height: 100%;
 }
+
 body {
     margin: 0;
     font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -9,25 +10,30 @@ body {
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../images/registrationBackground.jpg");
     background-size: cover;
     background-position: center;
- }
+}
 
- h1 {
+h1 {
      color: rgb(216, 214, 214);
      text-align: center;
      font-family: "Kaushan Script";
      font-size: 5vw;
      margin-bottom: 50px;
- }
+}
 
 .inputField {
      color: rgb(216, 214, 214);
      text-align: left;
      font-size: 28px;
- }
+}
 
 input {
      font-size: 25px;
  }
+
+select {
+    font-size: 25px;
+    width: 225px;
+}
  
  #submitButton {
      margin-top: 25px;
