@@ -4,13 +4,14 @@
     var numDoors = 0;
 
     window.onload = function() {
-        setupDropDownMenu();
+        setupDropDownMenus();
     };
 
-    function setupDropDownMenu() {
-        var ajax = new XMLHttpRequest();
+    function setupDropDownMenus() {
+        /****************************Gender*/
+        var Genderajax = new XMLHttpRequest();
 
-        ajax.onload = function() {
+        Genderajax.onload = function() {
             console.log(this.responseText);
             var response = JSON.parse(this.response);
             for (var i = 0; i < response.length; i++) {
@@ -19,15 +20,51 @@
                 newOption.value= response[i].GenderName + "";
                 newOption.innerHTML = response[i].GenderName + "";
 
-                document.getElementById("genderSelection").appendChild(newOption);
+                document.getElementById("GenderSelection").appendChild(newOption);
 
             }
         };
 
-        ajax.open("GET", "getGender.php", true);
-        ajax.send(null);
+        Genderajax.open("GET", "getGender.php", true);
+        Genderajax.send(null);
+        /****************************Country*/
+        var Countryajax = new XMLHttpRequest();
 
+        Countryajax.onload = function() {
+            console.log(this.responseText);
+            var response = JSON.parse(this.response);
+            for (var i = 0; i < response.length; i++) {
 
+                var newOption = document.createElement("option");
+                newOption.value= response[i].CountryName + "";
+                newOption.innerHTML = response[i].CountryName + "";
+
+                document.getElementById("CountrySelection").appendChild(newOption);
+
+            }
+        };
+
+        Countryajax.open("GET", "getCountry.php", true);
+        Countryajax.send(null);
+        /****************************Language*/
+        var LanguageAjax = new XMLHttpRequest();
+
+        LanguageAjax.onload = function() {
+            console.log(this.responseText);
+            var response = JSON.parse(this.response);
+            for (var i = 0; i < response.length; i++) {
+
+                var newOption = document.createElement("option");
+                newOption.value= response[i].JargonName + "";
+                newOption.innerHTML = response[i].JargonName + "";
+
+                document.getElementById("LanguageSelection").appendChild(newOption);
+
+            }
+        };
+
+        LanguageAjax.open("GET", "getLanguage.php", true);
+        LanguageAjax.send(null);
 
 
 
