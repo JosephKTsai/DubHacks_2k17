@@ -9,8 +9,8 @@ $CountryName = $_POST["country"];
 $UserName = $_POST["username"];
 $Password = $_POST["password"];
 $Email = $_POST["email"];
-$JargonName = $_POST["Jargon"];
-$Culture = $_POST["Jargon"];
+$JargonName = $_POST["language"];
+$Culture = $_POST["culture"];
 
 $GenderResults = executeSelect("select top 1 GenderID from Gender where GenderName = $GenderName");
 $GenderIDArray = $GenderResults->fetch_assoc();
@@ -25,9 +25,9 @@ $CountryIDArray = $CountryResults->fetch_assoc();
 $CountryID = $CountryIDArray["CountryID"];
 
 executeInsert("insert into Person
-                            (CountryID, JargonID, Email, UserName, UserPass, GenderID, Culture)
+                            (FName, LName, CountryID, JargonID, Email, UserName, UserPass, GenderID, Culture)
                           VALUES
-                            ($CountryID, $JargonID, $Email, $UserName, $Password, $GenderID, $Culture)
+                            ($FName, $LName, $CountryID, $JargonID, $Email, $UserName, $Password, $GenderID, $Culture)
              ");
 
  header("Location: website/newlyRegistered.php");
