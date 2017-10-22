@@ -28,7 +28,7 @@
      inkscape:cx="360.2724"
      inkscape:cy="65.135097"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer4"
      showgrid="false"
      units="px"
      inkscape:window-width="1284"
@@ -159,7 +159,7 @@
      transform="translate(0,-26.458333)">
     <g
        id="g6012"
-       transform="matrix(0.06174963,0,0,0.06174963,7.9345722,27.009785)">
+       transform="matrix(0.06174963,0,0,0.06174963,8.4637389,26.480618)">
       <rect
          id="rect5958"
          class=""
@@ -200,7 +200,7 @@
          id="polygon5966"
          class=""
          data-original="#EDEDEE"
-         points="211.862,167.724 194.207,388.414 317.793,388.414 300.138,167.724 300.138,114.759 211.862,114.759 "
+         points="300.138,114.759 211.862,114.759 211.862,167.724 194.207,388.414 317.793,388.414 300.138,167.724 "
          style="fill:#ededee" />
       <g
          id="g5976">
@@ -220,13 +220,13 @@
            id="polygon5972"
            class=""
            data-original="#FF6464"
-           points="301.594,185.937 207.585,221.191 204.672,257.592 304.338,220.218 "
+           points="204.672,257.592 304.338,220.218 301.594,185.937 207.585,221.191 "
            style="fill:#ff6464" />
         <polygon
            id="polygon5974"
            class=""
            data-original="#FF6464"
-           points="307.081,254.5 201.76,293.995 198.848,330.398 309.823,288.781 "
+           points="198.848,330.398 309.823,288.781 307.081,254.5 201.76,293.995 "
            style="fill:#ff6464" />
       </g>
       <path
