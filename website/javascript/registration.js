@@ -17,10 +17,8 @@
         ajax.open("GET", "getGender.php", true);
         ajax.send(null);
 
-        console.log(ajax);
-
-
-
+        console.log("Ajax object: " + ajax);
+        console.log("Ajax response text:" + ajax.responseText);
 
     }
 
