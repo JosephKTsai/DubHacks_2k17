@@ -1,0 +1,4 @@
+QuestionFormatID,QuestionFormatName,QuestionFormatDescription
+1,y/n,yes or no answers.
+2,number,numeric integer answers.
+3,text,text answers. (nvarchar(500)
