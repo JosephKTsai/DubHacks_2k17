@@ -5,7 +5,7 @@
  * Date: 10/22/17
  * Time: 11:21 AM
  */
-include("common.php");
+include("LighthouseCommon.php");
 
 $UserName = $_POST["username"];
 

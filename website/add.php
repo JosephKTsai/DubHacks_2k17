@@ -1,6 +1,6 @@
 <?php
 
-include("common.php");
+include("LighthouseCommon.php");
 
 $FName = $_POST["firstname"];
 $LName = $_POST["lastname"];
