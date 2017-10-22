@@ -9,6 +9,11 @@
 ## What this Repo contains
 >This repository contains both the backend as well as website/mobile front-end experiences of Lighthouse. Sample data is held on a server hosted by the University of Washington and is loaded to both the web page and mobile app.
 
+## Web hosted content
+>Most of our content is accessible through our web host, UW Web Hosting. our front page is below.  
+
+>https://depts.washington.edu/somcal/Lighthouse/website/homepage.html
+
 ## Accreditation
 > Joseph Tsai: Front-end web development
 
