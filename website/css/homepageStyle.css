@@ -1,6 +1,7 @@
 html, body, header, #headerBackground, section, #invitationBackground {
     height: 100%;
 }
+
 body {
     margin: 0;
     font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
