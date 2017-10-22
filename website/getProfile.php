@@ -14,3 +14,11 @@ $PersonIDArray = $PersonResults->fetch_assoc();
 $PersonID = $PersonIDArray["PersonID"];
 
 $PersonDetailsArray = executeSelect("select * from vPersonDetails where PersonID = $PersonID");
+
+$Array = array();
+while($row = $PersonDetailsArray->fetch_assoc()) {
+    $Array[] = $row;
+}
+echo json_encode($Array);
+
+$results->close();
