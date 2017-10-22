@@ -32,6 +32,7 @@ body {
 
 .darkerBackground {
     padding-top: 5px;
+    padding-bottom: 10px;
     background-color:rgb(224, 223, 223);
 }
 
@@ -49,5 +50,14 @@ body {
 
 #friend4 {
     background-image: url("../images/headshot4.jpg");
+}
+
+#aboutYou {
+    height: 50vh;
+    width: 100vw;
+}
+
+.myInfo {
+    text-align: center;
 }
 
