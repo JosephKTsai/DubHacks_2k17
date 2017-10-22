@@ -11,14 +11,11 @@
         var ajax = new XMLHttpRequest();
 
         ajax.onload = function() {
-            DoorSelect.innerHTML = this.responseText;
+            console.log(this.responseText);
         };
 
         ajax.open("GET", "getGender.php", true);
         ajax.send(null);
-
-        console.log("Ajax object: " + ajax);
-        console.log("Ajax response text:" + ajax.responseText);
 
     }
 

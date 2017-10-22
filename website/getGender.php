@@ -11,10 +11,9 @@ include("LighthouseCommon.php");
 $results = executeSelect("select GenderName from Gender");
 
 $Array = array();
-while($row = $results->fetch_array(MYSQL_ASSOC)) {
+while($row = $results->fetch_assoc()) {
     $Array[] = $row;
 }
 echo json_encode($Array);
 
-$result->close();
-$mysqli->close();
+$results->close();
