@@ -16,5 +16,5 @@ public class Country extends AppCompatActivity {
     public void findPal(View view) {
         Intent intent = new Intent(Country.this, FindPal.class);
         startActivity(intent);
-    }
+    }  
 }
