@@ -1,0 +1,40 @@
+html, body{
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../images/registrationBackground.jpg");
+    background-size: cover;
+    background-position: center;
+ }
+
+ h1 {
+     color: rgb(216, 214, 214);
+     text-align: center;
+     font-family: "Kaushan Script";
+     font-size: 5vw;
+     margin-bottom: 50px;
+ }
+
+.inputField {
+     color: rgb(216, 214, 214);
+     text-align: left;
+     font-size: 28px;
+ }
+
+input {
+     font-size: 25px;
+ }
+ 
+ #submitButton {
+     margin-top: 25px;
+     border-radius: 10px;
+     background-color: rgba(255, 255, 255, 0.7);
+     border-color: white;
+     color: rgb(36, 36, 36);
+     padding: 10px;
+     outline: none;
+ }

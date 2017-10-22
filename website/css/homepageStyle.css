@@ -1,6 +1,7 @@
 html, body, header, #headerBackground, section, #invitationBackground {
     height: 100%;
 }
+
 body {
     margin: 0;
     font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -84,7 +85,7 @@ header, #missionStatement, #invitation{
     background-position: center;
 }
 
-button {
+a {
     font-family: "Kaushan Script";
     text-align: center;
     margin-left: 40%;
@@ -96,8 +97,9 @@ button {
     padding: 10px;
 }
 
-button:focus {
-    outline: 0;
+a:hover {
+   text-decoration: none;
+   color: rgb(58, 58, 58);
 }
 
 

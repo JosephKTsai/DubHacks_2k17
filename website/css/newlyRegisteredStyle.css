@@ -1,0 +1,54 @@
+html, body, header, #headerBackground {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+ }
+
+ header {
+    width: 100vw;
+    height: 100vh;
+}
+
+#headerBackground {
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../images/friendsLaughing.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#welcomeHeader {
+    text-align: center;
+    color: #EAEAEA;
+    font-family: "Kaushan Script";
+    font-size: 10vw;
+    margin-top: 0;
+    padding-top: 30vh;
+    margin-bottom: 50px;
+}
+
+#headerBackground p {
+    text-align: center;
+    font-size: 3vw;
+    color: #EAEAEA;
+}
+
+a {
+    font-family: "Kaushan Script";
+    text-align: center;
+    margin-left: 35%;
+    font-size: 35px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: white;
+    color: rgb(36, 36, 36);
+    padding: 10px;
+}
+
+a:hover {
+   text-decoration: none;
+   color: rgb(58, 58, 58);
+}
