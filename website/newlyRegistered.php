@@ -1,3 +1,39 @@
+<?php
+
+include("LighthouseCommon.php");
+
+$FName = $_GET["firstname"];
+$LName = $_GET["lastname"];
+$GenderName = $_GET["Gender"];
+echo ($GenderName);
+$CountryName = $_GET["country"];
+$UserName = $_GET["username"];
+$Password = $_GET["password"];
+$Email = $_GET["email"];
+$JargonName = $_GET["language"];
+$Culture = $_GET["culture"];
+echo ($FName);
+
+$GenderResults = executeSelect("select top 1 GenderID from Gender where GenderName = '$GenderName''");
+$GenderIDArray = $GenderResults->fetch_assoc();
+$GenderID = $GenderIDArray["GenderID"];
+
+$JargonResults = executeSelect("select top 1 JargonID from Jargon where JargonName = $JargonName");
+$JargonIDArray = $JargonResults->fetch_assoc();
+$JargonID = $JargonIDArray["JargonID"];
+
+$CountryResults = executeSelect("select top 1 CountryID from Country where CountryName = $CountryName");
+$CountryIDArray = $CountryResults->fetch_assoc();
+$CountryID = $CountryIDArray["CountryID"];
+
+$PersonID = executeInsert("insert into Person
+(FName, LName, CountryID, JargonID, Email, UserName, UserPass, GenderID, Culture)
+VALUES
+('$FName', '$LName', $CountryID, $JargonID, '$Email', '$UserName', '$Password', $GenderID, '$Culture')
+");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
