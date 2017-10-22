@@ -50,7 +50,7 @@ go
 
 create table Img (
 	ImgID int identity(1,1) not null,
-	ImgPath nvarchar(500) not null,
+	ImgPath nvarchar(500) not null unique,
 	ImgRatio numeric not null
 
 	constraint pk_Img primary key (ImgID)
@@ -91,7 +91,7 @@ create table Person (
 	CountryID int not null,
 	JargonID int not null,
 	Email nvarchar(500) not null,
-	UserName nvarchar(500) not null,
+	UserName nvarchar(500) not null unique,
 	UserPass nvarchar(500) not null,
 	GenderID int not null,
 	Culture nvarchar(500),
