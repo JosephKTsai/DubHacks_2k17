@@ -102,4 +102,13 @@ a:hover {
    color: rgb(58, 58, 58);
 }
 
-
+.navbar {
+    margin-bottom: 0px;
+}
+nav div a, .active {
+    font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    border: none;
+    background-color: #F6F6F6;
+}
