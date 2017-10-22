@@ -1,0 +1,63 @@
+#userMapOfWorld {
+    height: 80vh;
+    width: 90vw;
+    background-image: url("../images/mapWithLighthouses.png");
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    margin: 0;
+    font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+ .sectionHeading {
+     text-align: center;
+     font-size: 50px;
+     margin-bottom: 20px;
+}
+
+.friend {
+    margin-top: 10px;
+    float: left;
+    margin-right: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: top;
+}
+
+.darkerBackground {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color:rgb(224, 223, 223);
+}
+
+#friend1 {
+    background-image: url("../images/headshot1.jpg");
+}
+
+#friend2 {
+    background-image: url("../images/headshot2.jpg");
+}
+
+#friend3 {
+    background-image: url("../images/headshot3.jpg");
+}
+
+#friend4 {
+    background-image: url("../images/headshot4.jpg");
+}
+
+#aboutYou {
+    height: 50vh;
+    width: 100vw;
+}
+
+.myInfo {
+    text-align: center;
+}
+
