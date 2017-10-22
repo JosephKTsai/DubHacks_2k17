@@ -1,0 +1,103 @@
+html, body, header, #headerBackground, section, #invitationBackground {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+ }
+
+header, #missionStatement, #invitation{
+    width: 100vw;
+    height: 100vh;
+}
+
+#headerBackground {
+    background: url("../images/headerBackground.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#lighthouseHeader {
+    text-align: center;
+    color: #EAEAEA;
+    font-family: "Kaushan Script";
+    font-size: 10vw;
+    margin-top: 0;
+    padding-top: 30vh;
+    margin-bottom: 50px;
+
+}
+
+#headerBackground p {
+    text-align: center;
+    font-size: 3vw;
+    color: #EAEAEA;
+}
+
+#missionStatement {
+    background-color: #ededee;
+}
+
+.sectionHeader {
+    font-variant: small-caps;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+
+#lighthouseSVG {
+    padding: 60px;
+    fill: #DB926E;
+}
+
+.missionStatementInfo {
+    margin-top: 54px;
+    font-size: 26px
+}
+
+#howWeDoIt {
+    background-color: #f9f9f9;
+}
+
+#howHeader {
+    margin-bottom: 10vh;
+}
+
+#howWeDoIt {
+    width: 100vw;
+    height: 60vh;
+    padding-bottom: 60px;
+}
+.step {
+    text-align: left;
+    font-size: 35px;
+    margin-left: 25vw;
+    margin-bottom: 30px;
+}
+
+#invitationBackground {
+    background: url("../images/whatAreYouWaitingFor.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    font-family: "Kaushan Script";
+    text-align: center;
+    margin-left: 40%;
+    font-size: 35px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: white;
+    color: rgb(36, 36, 36);
+    padding: 10px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+
