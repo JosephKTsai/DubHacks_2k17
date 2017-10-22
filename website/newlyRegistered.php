@@ -1,4 +1,4 @@
-<?php
+<?php  /*
 
 include("LighthouseCommon.php");
 
@@ -32,7 +32,7 @@ VALUES
 ('$FName', '$LName', $CountryID, $JargonID, '$Email', '$UserName', '$Password', $GenderID, '$Culture')
 ");
 
-?>
+*/  ?>
 
 <!DOCTYPE html>
 <html lang="en">
