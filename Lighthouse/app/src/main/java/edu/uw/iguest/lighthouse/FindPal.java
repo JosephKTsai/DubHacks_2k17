@@ -1,0 +1,13 @@
+package edu.uw.iguest.lighthouse;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class FindPal extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_find_pal);
+    }
+}

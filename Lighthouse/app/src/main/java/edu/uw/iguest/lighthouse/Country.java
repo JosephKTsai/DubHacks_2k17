@@ -1,22 +1,20 @@
 package edu.uw.iguest.lighthouse;
 
 import android.content.Intent;
-import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Optional extends AppCompatActivity {
-    static final int REQUEST_IMAGE_CAPTURE = 1;
-    
+public class Country extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_optional);
+        setContentView(R.layout.activity_country);
     }
 
-    public void country(View view) {
-        Intent intent = new Intent(Optional.this, Country.class);
+    public void findPal(View view) {
+        Intent intent = new Intent(Country.this, FindPal.class);
         startActivity(intent);
     }
 }

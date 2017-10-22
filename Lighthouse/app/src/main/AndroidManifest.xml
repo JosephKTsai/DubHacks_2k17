@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.uw.iguest.lighthouse">
-    <uses-feature android:name="android.hardware.camera"
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
         android:required="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,7 +23,9 @@
         </activity>
         <activity android:name=".Username" />
         <activity android:name=".State" />
-        <activity android:name=".Optional"></activity>
+        <activity android:name=".Optional" />
+        <activity android:name=".Country" />
+        <activity android:name=".FindPal" />
     </application>
 
 </manifest>
